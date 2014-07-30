@@ -1,0 +1,115 @@
+{
+	"took": 2,
+	"timed_out": false,
+	"_shards": {
+		"total": 5,
+		"successful": 5,
+		"failed": 0
+	},
+	"hits": {
+		"total": 5,
+		"max_score": 1,
+		"hits": [
+			{
+				"_index": "lateseats",
+				"_type": "flight",
+				"_id": "MIAPMI201407311200",
+				"_score": 1,
+				"_source": {
+					"departure_airport": {
+						"code": "MIA",
+						"name": "Manchester Airport"
+					},
+					"destination_airport": {
+						"code": "PMI",
+						"name": "Palma Mallorca Airport"
+					},
+					"departure_date": "2014-07-31T12:00:00",
+					"arrival_date": "2014-07-31T15:30:00",
+					"flight_number": "TOM5678",
+					"seats_remaining": 2
+				}
+			},
+			{
+				"_index": "lateseats",
+				"_type": "flight",
+				"_id": "MIAPMI201408050655",
+				"_score": 1,
+				"_source": {
+					"departure_airport": {
+						"code": "MIA",
+						"name": "Manchester Airport"
+					},
+					"destination_airport": {
+						"code": "PMI",
+						"name": "Palma Mallorca Airport"
+					},
+					"departure_date": "2014-08-05T06:55:00",
+					"arrival_date": "2014-08-05T10:30:00",
+					"flight_number": "TOM2240",
+					"seats_remaining": 5
+				}
+			},
+			{
+				"_index": "lateseats",
+				"_type": "flight",
+				"_id": "MIAPMI201408020805",
+				"_score": 1,
+				"_source": {
+					"departure_airport": {
+						"code": "MIA",
+						"name": "Manchester Airport"
+					},
+					"destination_airport": {
+						"code": "PMI",
+						"name": "Palma Mallorca Airport"
+					},
+					"departure_date": "2014-08-02T08:05:00",
+					"arrival_date": "2014-08-02T11:40:00",
+					"flight_number": "TOM2622",
+					"seats_remaining": 3
+				}
+			},
+			{
+				"_index": "lateseats",
+				"_type": "flight",
+				"_id": "MANPMI201407311000",
+				"_score": 1,
+				"_source": {
+					"arrival_date": "2014-08-04T06:00:00",
+					"departure_airport": {
+						"Code": null,
+						"Name": "Manchester"
+					},
+					"departure_date": "2014-08-18T09:35:00",
+					"destination_airport": {
+						"Code": null,
+						"Name": "Menorca"
+					},
+					"nights": 14,
+					"seats_remaining": 2
+				}
+			},
+			{
+				"_index": "lateseats",
+				"_type": "flight",
+				"_id": "MIAPMI201407311000",
+				"_score": 1,
+				"_source": {
+					"arrival_date": "2014-08-01T06:30:00",
+					"departure_airport": {
+						"Code": null,
+						"Name": "Manchester"
+					},
+					"departure_date": "2014-08-09T12:50:00",
+					"destination_airport": {
+						"Code": null,
+						"Name": "Antalya"
+					},
+					"nights": 7,
+					"seats_remaining": 1
+				}
+			}
+		]
+	}
+}
