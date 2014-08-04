@@ -73,17 +73,17 @@
 			{
 				"_index": "lateseats",
 				"_type": "flight",
-				"_id": "MANPMI201407311000",
+				"_id": "MIAMEN201408040600",
 				"_score": 1,
 				"_source": {
 					"arrival_date": "2014-08-04T06:00:00",
 					"departure_airport": {
-						"Code": null,
+						"Code": "MIA",
 						"Name": "Manchester"
 					},
 					"departure_date": "2014-08-18T09:35:00",
 					"destination_airport": {
-						"Code": null,
+						"Code": "MEN",
 						"Name": "Menorca"
 					},
 					"nights": 14,
@@ -93,17 +93,17 @@
 			{
 				"_index": "lateseats",
 				"_type": "flight",
-				"_id": "MIAPMI201407311000",
+				"_id": "MIAANT201408010630",
 				"_score": 1,
 				"_source": {
 					"arrival_date": "2014-08-01T06:30:00",
 					"departure_airport": {
-						"Code": null,
+						"Code": "MIA",
 						"Name": "Manchester"
 					},
 					"departure_date": "2014-08-09T12:50:00",
 					"destination_airport": {
-						"Code": null,
+						"Code": "ANT",
 						"Name": "Antalya"
 					},
 					"nights": 7,
